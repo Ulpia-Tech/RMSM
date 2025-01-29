@@ -1,0 +1,13 @@
+[
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "roleAAA": "DEV",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]
+    }
+]

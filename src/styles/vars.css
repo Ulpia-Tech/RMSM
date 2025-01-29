@@ -1,0 +1,9 @@
+:root {
+  --blue-500: #0071CE; /* primary-main */
+  --gray-300: #f8f8f8; /* gray-light */
+  --gray-400: #F1F0F0;
+  --gray-600: #77787C; /* gray-main  */
+  --gray-800: #49525C; /*gray-dark */
+  --error-main: #f62407;
+  --fill-main: #E9F0FF;
+}

@@ -1,0 +1,9 @@
+                
+[
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+           "error"
+        ]
+    }
+]

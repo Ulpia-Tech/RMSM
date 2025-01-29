@@ -1,0 +1,7 @@
+.selected {
+    background-color: #CEE9FF;
+}
+
+.border { 
+    border-right: 1px solid #E5E8EC !important;
+}

@@ -1,0 +1,21 @@
+.MuiMenuItem-root {
+    background-color: #ffff !important;
+}
+
+.MuiMenuItem-root:hover {
+    background-color: #f7f8fc !important;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root:hover {
+    color: var(--blue-500);
+}
+
+.MuiButtonBase-root.MuiCheckbox-root:hover {
+    color: var(--blue-500);
+}
+
+.MuiButton-startIcon img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}

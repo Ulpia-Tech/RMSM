@@ -1,0 +1,24 @@
+[
+    {
+        "uri": "configuration/relationTypes",
+        "permissions": [
+            {
+                "role": "MSQA_1",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/relationTypes",
+        "permissions": [
+            {
+                "role": "MSQA_1",
+                "access": [
+                    "UPDATE"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,196 @@
+[
+    {
+        "uri": "configuration/entityTypes/Organization",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "G_RELITO_UI_ALL",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DATASTEWARD",
+                "filter": "equals(attributes.KeyAccountType,'SA') or equals(attributes.KeyAccountType,'OSA') or equals(attributes.KeyAccountType,'MCTA') or equals(attributes.KeyAccountType,'ID') ",
+                "access": [
+                    "READ",
+                    "CREATE",
+                    "UPDATE",
+                    "MERGE"
+                ]
+            }
+        ]
+    },
+    
+    {
+        "uri": "configuration/relationTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/relationTypes/attributes/email/name",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/Individual",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "G_RELITO_UI_ALL",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/Location",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "G_RELITO_UI_ALL",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "G_RELITO_UI_ALL",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/attributes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "G_RELITO_UI_ALL",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }  
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/attributes/fullName",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "MERGE"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": []
+            }
+        ]
+    }
+]

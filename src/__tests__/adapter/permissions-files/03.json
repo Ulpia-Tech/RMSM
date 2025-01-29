@@ -1,0 +1,37 @@
+[
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE"
+                ]
+            },
+            {
+                "role": "G_RELTIO_DEV_ALL"
+            },
+            {
+                "role": "GSR_DEV"
+            }
+        ]   
+    },
+    {
+        "uri": "configuration/entityTypes/Individual",
+        "permissions": [
+            {
+                "role": "GSR_DEV_ALL",
+                "access": [
+                    "CREATE",
+                    "READ"
+                ]
+            }
+        ]   
+    }
+]

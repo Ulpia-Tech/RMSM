@@ -1,0 +1,45 @@
+.sm-text {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.body-text { 
+    font-size: 12px;
+    line-height: 19.6px;
+}
+
+.subheader { 
+    font-size: 14.4px;
+    line-height: 21.6px;
+}
+
+.heading-3 { 
+    font-size: 17.8px;
+    line-height: 26.7px;
+}
+
+.heading-2 { 
+    font-size: 20.74px;
+    line-height: 33px;
+}
+
+.heading-1 { 
+    font-size: 24.88px;
+    line-height: 42px;
+}
+
+.fw-light { 
+    font-weight: 300;
+}
+
+.fw-medium { 
+    font-weight: 500;
+}
+
+.fw-semi-bold { 
+    font-weight: 600;
+}
+
+.fw-bold { 
+    font-weight: 700;
+}

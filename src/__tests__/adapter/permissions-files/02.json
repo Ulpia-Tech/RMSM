@@ -1,0 +1,68 @@
+[
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]   
+    },
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/Individual",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "CREATE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "MERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/Individual",
+        "permissions": [
+            {
+                "role": "G_RELTIO_DEV_ALL",
+                "access": [
+                    "READ"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* background-color: azure; */
+    height: 70px;
+
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* clear: both; */
+    /* position: relative; */
+    /* margin-top: -40px; */
+}
+
+.reverse:before {
+    content: attr(data-website) "\0040" attr(data-user);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.reversetel:before {
+    content: attr(data-tel) "\002b";
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}

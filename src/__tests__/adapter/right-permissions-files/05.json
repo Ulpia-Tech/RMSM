@@ -1,0 +1,293 @@
+[
+	{
+		"uri": "configuration/entityTypes",
+		"permissions": [
+			{
+				"role": "ROLE_SE_ADMIN",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "ROLE_SE_BUSINESS_USER",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "ROLE_SE_DATASTEWARD",
+				"access": [
+					"READ",
+					"UPDATE",
+					"MERGE",
+					"UNMERGE"
+				]
+			}
+		]
+	},
+	{
+		"uri": "configuration/relationTypes/Referral",
+		"permissions": [
+			{
+				"role": "G_RELTIO_DEV_RO_DS",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_SERVICE_ALL",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_SERVICE_DS",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_ALL",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_ALL_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_PRODUCT",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_RO"
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_RO_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_STEWARDS",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_VIP_ALL"
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_VIP_RO"
+			},
+			{
+				"role": "G_RELTIO_PROD_RO_DS",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_SERVICE_ALL",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_SERVICE_DS",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_ALL",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_ALL_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_PRODUCT"
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_RO"
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_RO_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_STEWARDS",
+				"access": [
+					"READ"
+				]
+			}
+		]
+	},
+	{
+		"uri": "configuration/relationTypes/Referral/attributes",
+		"permissions": [
+			{
+				"role": "G_RELTIO_DEV_RO_DS",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_SERVICE_ALL",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_SERVICE_DS",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_ALL",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_ALL_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_PRODUCT",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_RO"
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_RO_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_STEWARDS",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_VIP_ALL"
+			},
+			{
+				"role": "G_RELTIO_DEV_UI_VIP_RO"
+			},
+			{
+				"role": "G_RELTIO_PROD_RO_DS",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_SERVICE_ALL",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_SERVICE_DS",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_ALL",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_ALL_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_PRODUCT"
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_RO"
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_RO_PIV_RESTRICTED",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "G_RELTIO_PROD_UI_STEWARDS",
+				"access": [
+					"READ"
+				]
+			}
+		]
+	}
+]

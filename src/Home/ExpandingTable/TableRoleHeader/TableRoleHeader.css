@@ -1,0 +1,23 @@
+.roleHeader { 
+    display: flex;
+}
+
+.roleHeader-text { 
+    flex-grow: 1;
+    color: black;
+}
+
+.roleHeader-actions-input { 
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    width: 300px;
+}
+
+
+.roleHeader-actions-input:disabled { 
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+

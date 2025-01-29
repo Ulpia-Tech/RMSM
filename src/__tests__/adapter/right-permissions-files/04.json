@@ -1,0 +1,438 @@
+[
+    {
+        "uri": "configuration/entityTypes/Organization",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "filter": "equals(attributes.KeyAccountType,'SA') or equals(attributes.KeyAccountType,'OSA') or equals(attributes.KeyAccountType,'MCTA') or equals(attributes.KeyAccountType,'ID') ",
+                "access": [
+                    "READ",
+                    "CREATE",
+                    "UPDATE",
+                    "MERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "filter": "equals(attributes.KeyAccountType,'TA') or equals(attributes.KeyAccountType,'NA') or equals(attributes.KeyAccountType,'CTAC') ",
+                "access": [
+                    "READ",
+                    "CREATE",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/relationTypes",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS_LITE",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_PROJECTUSER",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/relationTypes/attributes",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS_LITE",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_PROJECTUSER",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/Individual",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS_LITE",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_PROJECTUSER",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/Location",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS_LITE",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_PROJECTUSER",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+
+    {
+        "uri": "configuration/entityTypes/attributes",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS_LITE",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_PROJECTUSER",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "configuration/entityTypes/attributes/fullName",
+        "permissions": [
+            {
+                "role": "ROLE_SE_ADMIN",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "DELETE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_BUSINESS_USER",
+                "access": [
+                    "READ"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DATASTEWARD",
+                "access": [
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_DS_LITE",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "INITIATE_CHANGE_REQUEST"
+                ]
+            },
+            {
+                "role": "ROLE_SE_PROJECTUSER",
+                "access": [
+                    "CREATE",
+                    "READ",
+                    "UPDATE",
+                    "MERGE",
+                    "UNMERGE"
+                ]
+            }
+        ]
+    }
+]

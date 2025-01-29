@@ -1,0 +1,75 @@
+[
+	{
+		"uri": "configuration/relationTypes/Referral",
+		"permissions": [
+			{
+				"role": "ROLE_SE_ADMIN",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "ROLE_SE_BUSINESS_USER",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "ROLE_SE_DATASTEWARD",
+				"access": [
+					"READ",
+					"UPDATE",
+					"MERGE",
+					"UNMERGE"
+				]
+			}
+		]
+	},
+	{
+		"uri": "configuration/relationTypes/Referral/attributes",
+		"permissions": [
+			{
+				"role": "ROLE_SE_ADMIN",
+				"access": [
+					"CREATE",
+					"READ",
+					"UPDATE",
+					"DELETE",
+					"MERGE",
+					"UNMERGE"
+				]
+			},
+			{
+				"role": "ROLE_SE_BUSINESS_USER",
+				"access": [
+					"READ"
+				]
+			},
+			{
+				"role": "ROLE_SE_DATASTEWARD",
+				"access": [
+					"READ",
+					"UPDATE",
+					"MERGE",
+					"UNMERGE"
+				]
+			}
+		]
+	},
+	{
+		"uri": "configuration/entityTypes",
+		"permissions": [
+			{
+				"role": "ROLE_SE_BUSINESS_USER",
+				"access": [
+					"READ"
+				]
+			}
+		]
+	}
+]
