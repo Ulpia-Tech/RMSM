@@ -8,7 +8,7 @@ const Header = () => {
 	return (
 		<Box>
 			<AppBar data-testid="header" position="static" style={{ backgroundColor: theme.palette.primary.main, boxShadow: 'none' }}>
-				<Toolbar>
+				<Toolbar style={{display: "flex", justifyContent: "space-between"}}>
 					<Typography variant="h6" component="h1" sx={{ flexGrow: 1, fontSize: 600 }}>
 						Reltio Metadata Security Management
 					</Typography>
